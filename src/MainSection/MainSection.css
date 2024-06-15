@@ -8,11 +8,8 @@ main * {
 }
 
 main section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    height: 360px;
+    height: 820px;
 }
 
 main section p{
@@ -20,8 +17,19 @@ main section p{
 }
 
 #presentation{
+    position: relative;
     background-color: #F0FF86;
 }
+
+#presentation h1 {
+    top: 60px;
+    font-weight: bold;
+}
+
+#presentation h1 span {
+    color: #00BBBE;
+}
+
 #skills{
     background-color: #A9EFFF;
 }

@@ -1,4 +1,5 @@
 import { TodoIcon } from '../TodoIcon';
+import { Link } from 'react-scroll'
 import React from 'react';
 import './navbar.css';
 
@@ -73,11 +74,61 @@ function NavBar ({theme, setTheme, menuState, setMenuState}) {
           </li>
         </ul>
         <ul className={`ul-sections theme-${theme} ${menuState ? 'menu-active' : ''}`} >
-            <li>Home</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li>
+              <Link
+                to='presentation'
+                spy={true} 
+                smooth={true} 
+                offset={-80} 
+                duration={600}
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+                <Link
+                  to='skills'
+                  spy={true} 
+                  smooth={true} 
+                  offset={-80} 
+                  duration={500}
+                >
+                  Skills
+                </Link>
+            </li>
+            <li>
+              <Link
+                to='projects'
+                spy={true} 
+                smooth={true} 
+                offset={-80} 
+                duration={500}
+              >
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                to='about-me'
+                spy={true} 
+                smooth={true} 
+                offset={-80} 
+                duration={500}
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                to='contact'
+                spy={true} 
+                smooth={true} 
+                offset={-80} 
+                duration={600}
+              >
+                Contact
+              </Link>
+            </li>
         </ul>
         <div
           className={`div-menu theme-${theme}`}

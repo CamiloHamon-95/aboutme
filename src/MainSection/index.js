@@ -5,19 +5,20 @@ function MainSection ({theme}) {
   return (
     <main className={`main theme-${theme}`}>
         <section id='presentation'>
-          <p>Seccion de Presentacion</p>
+          <h1>Hi! I'm <span>Camilo</span>,</h1>
+          <h1>I'm a backend developer.</h1>
         </section>
         <section  id='skills'>
-          <p>Seccion de skills</p>
+          <h1>Skills</h1>
         </section>
         <section  id='projects'>
-          <p>Seccion de projects</p>
+          <h1>Projects</h1>
         </section>
         <section  id='about-me'>
-          <p>Seccion de about me</p>
+          <h1>About</h1>
         </section>
         <section  id='contact'>
-          <p>Seccion de contact</p>
+          <h1>Contact</h1>
         </section>
     </main>
   )
