@@ -1,5 +1,5 @@
 import { TodoIcon } from '../TodoIcon';
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
 import React from 'react';
 import './navbar.css';
 
@@ -80,7 +80,7 @@ function NavBar ({theme, setTheme, menuState, setMenuState}) {
                 spy={true} 
                 smooth={true} 
                 offset={-80} 
-                duration={600}
+                duration={800}
               >
                 Home
               </Link>
@@ -91,7 +91,7 @@ function NavBar ({theme, setTheme, menuState, setMenuState}) {
                   spy={true} 
                   smooth={true} 
                   offset={-80} 
-                  duration={500}
+                  duration={800}
                 >
                   Skills
                 </Link>
@@ -102,7 +102,7 @@ function NavBar ({theme, setTheme, menuState, setMenuState}) {
                 spy={true} 
                 smooth={true} 
                 offset={-80} 
-                duration={500}
+                duration={800}
               >
                 Projects
               </Link>
@@ -113,7 +113,7 @@ function NavBar ({theme, setTheme, menuState, setMenuState}) {
                 spy={true} 
                 smooth={true} 
                 offset={-80} 
-                duration={500}
+                duration={800}
               >
                 About
               </Link>
@@ -124,7 +124,7 @@ function NavBar ({theme, setTheme, menuState, setMenuState}) {
                 spy={true} 
                 smooth={true} 
                 offset={-80} 
-                duration={600}
+                duration={800}
               >
                 Contact
               </Link>

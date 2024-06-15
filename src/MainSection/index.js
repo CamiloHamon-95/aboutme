@@ -1,3 +1,8 @@
+import { IntroSection } from '../Sections/IntroSection';
+import { SkillsSection } from '../Sections/SkillsSection';
+import { ProjectsSection } from '../Sections/ProjectsSection';
+import { AboutSection } from '../Sections/AboutSection';
+import { ContactSection } from '../Sections/ContactSection';
 import React from 'react';
 import './MainSection.css';
 
@@ -5,20 +10,19 @@ function MainSection ({theme}) {
   return (
     <main className={`main theme-${theme}`}>
         <section id='presentation'>
-          <h1>Hi! I'm <span>Camilo</span>,</h1>
-          <h1>I'm a backend developer.</h1>
+          < IntroSection />
         </section>
         <section  id='skills'>
-          <h1>Skills</h1>
+          < SkillsSection />
         </section>
         <section  id='projects'>
-          <h1>Projects</h1>
+          < ProjectsSection />
         </section>
         <section  id='about-me'>
-          <h1>About</h1>
+          < AboutSection />
         </section>
         <section  id='contact'>
-          <h1>Contact</h1>
+          < ContactSection />
         </section>
     </main>
   )
