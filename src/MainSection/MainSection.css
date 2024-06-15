@@ -1,0 +1,36 @@
+main {
+    padding-top: 82px;
+    min-height: 100vh;
+}
+
+main * {
+    margin: 0;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 360px;
+}
+
+main section p{
+    background-color: cadetblue;
+}
+
+#presentation{
+    background-color: #F0FF86;
+}
+#skills{
+    background-color: #A9EFFF;
+}
+#projects{
+    background-color: #F0FF86;
+}
+#about-me{
+    background-color: #A9EFFF;
+}
+#contact{
+    background-color: #F0FF86;
+}
