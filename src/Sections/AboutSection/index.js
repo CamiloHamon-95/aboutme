@@ -5,10 +5,10 @@ import './AboutSection.css';
 
 function AboutSection () {
     return (
-      <div>
+      <section  id='about'>
         <h1>About me</h1>
         <h1>I want to travel too much</h1>
-      </div>
+      </section>
     )
   };
   

@@ -109,7 +109,7 @@ function NavBar ({theme, setTheme, menuState, setMenuState}) {
             </li>
             <li>
               <Link
-                to='about-me'
+                to='about'
                 spy={true} 
                 smooth={true} 
                 offset={-80} 

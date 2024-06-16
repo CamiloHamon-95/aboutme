@@ -5,7 +5,7 @@ import './IntroSection.css';
 
 function IntroSection () {
     return (
-      <div className='ct-intro'>
+      <section className='ct-intro' id='presentation'>
         <div className='ct-description'>
           <h1>Hi! I'm <span>Camilo</span>,</h1>
           <h1>I'm a backend developer.</h1>
@@ -20,8 +20,7 @@ function IntroSection () {
         <div className='ct-pizza'>
           <h1>Here goes the pizza.</h1>
         </div>
-        
-      </div>
+      </section>
     )
   };
   

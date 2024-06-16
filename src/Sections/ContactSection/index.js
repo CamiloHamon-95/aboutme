@@ -5,10 +5,10 @@ import './ContactSection.css';
 
 function ContactSection () {
     return (
-      <div>
+      <section  id='contact'>
         <h1>Contact me! please! jajaj</h1>
         <h1>Some smooth and simply here</h1>
-      </div>
+      </section>
     )
   };
   

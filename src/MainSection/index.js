@@ -9,21 +9,11 @@ import './MainSection.css';
 function MainSection ({theme}) {
   return (
     <main className={`main theme-${theme}`}>
-        <section id='presentation'>
-          < IntroSection />
-        </section>
-        <section  id='skills'>
-          < SkillsSection />
-        </section>
-        <section  id='projects'>
-          < ProjectsSection />
-        </section>
-        <section  id='about-me'>
-          < AboutSection />
-        </section>
-        <section  id='contact'>
-          < ContactSection />
-        </section>
+        < IntroSection />
+        < SkillsSection />
+        < ProjectsSection />
+        < AboutSection />
+        < ContactSection />
     </main>
   )
 };
