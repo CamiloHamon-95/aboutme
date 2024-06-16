@@ -1,0 +1,81 @@
+.ct-intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ct-intro div {
+    flex-grow: 1;
+}
+
+.ct-intro h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.ct-description span {
+    color: #00BBBE;
+}
+
+.animated-text {
+    font-size: 30px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.animated-text span {
+    position: relative;
+}
+
+.animated-text span::before {
+    content: 'a full stack developer.';
+    color: #1C2833;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after {
+    content: '';
+    position: absolute;
+    width: calc(100%+8px);
+    height: 100%;
+    background-color: #F0FF86;;
+    border-left: 2px solid #1C2833;
+    right: -8px;
+    animation: cursor .6s infinite, typing 20s steps(23) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #F0FF86;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: 'a full stack developer.';
+    }
+    21%,40%{
+        content: 'a full stack developer.';
+    }
+    41%,60%{
+        content: 'a full stack developer.';
+    }
+    61%,80%{
+        content: 'a full stack developer.';
+    }
+    81%,100%{
+        content: 'a full stack developer.';
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
