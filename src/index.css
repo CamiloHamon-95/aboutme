@@ -16,6 +16,12 @@ code {
     monospace;
 }
 
+input, textarea, select, button {
+  font-family: -apple-system, BlinkMacSystemFont,'serif', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
 #root {
   margin: 0;
   min-width: 350px;
