@@ -13,10 +13,11 @@
 
 .ct-intro h1 {
     margin: 0;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .ct-intro p {
+    font-size: 20px;
     font-family: monospace;
     font-style: italic;
     max-width: 350px;

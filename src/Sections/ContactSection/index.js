@@ -6,8 +6,17 @@ import './ContactSection.css';
 function ContactSection () {
     return (
       <section  id='contact'>
-        <h1>Contact me! please! jajaj</h1>
-        <h1>Some smooth and simply here</h1>
+        <div className="general-title">
+          <h1>
+            Contact me
+            <span>
+                Stay tune
+            </span>
+          </h1>
+        </div>
+        <div>
+          <span>Aca va la parte del contacto</span>
+        </div>
       </section>
     )
   };

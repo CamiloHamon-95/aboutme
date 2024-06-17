@@ -6,8 +6,14 @@ import './AboutSection.css';
 function AboutSection () {
     return (
       <section  id='about'>
-        <h1>About me</h1>
-        <h1>I want to travel too much</h1>
+        <div className="general-title">
+          <h1>
+            About me
+            <span>
+                Know me
+            </span>
+          </h1>
+        </div>
       </section>
     )
   };

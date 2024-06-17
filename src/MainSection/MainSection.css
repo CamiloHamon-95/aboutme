@@ -5,20 +5,6 @@ main {
 
 main section {
     width: 100%;
-    height: 820px;
     padding: 0 25px;
     box-sizing: border-box;
-}
-
-#skills{
-    background-color: #A9EFFF;
-}
-#projects{
-    background-color: #F0FF86;
-}
-#about-me{
-    background-color: #A9EFFF;
-}
-#contact{
-    background-color: #F0FF86;
 }
