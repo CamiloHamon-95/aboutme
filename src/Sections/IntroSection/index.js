@@ -1,4 +1,4 @@
-import profilePhoto from '../../staticImage/main_profile.png';
+import profilePhoto from '../../images/main_profile.png';
 
 import React from 'react';
 
