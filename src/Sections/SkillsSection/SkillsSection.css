@@ -9,3 +9,8 @@
     align-items: center;
     gap: 2rem;
 }
+
+#skills .div-skills {
+    padding: 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 4px;
+}
