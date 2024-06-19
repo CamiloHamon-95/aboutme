@@ -25,11 +25,9 @@ function ContactSection () {
   const onSubmit = (event) => {
     setResForm('loading');
     event.preventDefault();
-    console.log('ENVIO EL MESSAGE');
     setTimeout(
-      () => setResForm('success'), 3000
+      () => console.log('Sending message...'), 3000
     );
-    /*
     emailjs.send(
       process.env.REACT_APP_EMAILJS_SERVICE_ID,
       process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
@@ -42,7 +40,6 @@ function ContactSection () {
       console.log('FAILED...', err);
       setResForm('failed');
     });
-    */
   };
 
   const onChange = (event) => {
