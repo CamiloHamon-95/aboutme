@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer ({theme}) {
   return (
-    <footer>
+    <footer className={`theme-${theme}`}>
         <p>@2024 Camilo Hamon | ALL Rights Reserved</p>
     </footer>
   )
