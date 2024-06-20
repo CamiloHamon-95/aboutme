@@ -15,7 +15,7 @@ const myImage = (nameImage) => {
 
 function ImageComponent ({nameImage}) {
   return (
-    <div className='ct-photo'>
+    <div className = 'ct-photo'>
       <div className='photo-frame'>
         <img src={myImage(nameImage)} alt={nameImage} />
       </div>

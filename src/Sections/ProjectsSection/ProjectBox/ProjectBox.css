@@ -1,0 +1,31 @@
+.project-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 4px;
+}
+
+.project-box-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 4px;
+}
+
+.project-box > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-description {
+    padding-bottom: 20px;
+}
+
+.project-image img {
+    max-width: 600px;
+    width: 100%;
+}
