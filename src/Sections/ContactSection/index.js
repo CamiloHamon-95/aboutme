@@ -1,5 +1,4 @@
 import { ReactComponent as IconSuccess } from '../../static/check.svg';
-import { ReactComponent as IconPython } from '../../static/python.svg';
 import { ReactComponent as IconError } from '../../static/error.svg';
 import { ReactComponent as IconLoading } from '../../static/loading.svg';
 import { TodoContext } from '../../TodoContext';

@@ -4,26 +4,26 @@ import React from 'react';
 
 function ProjectDescription ({title, content}) {
 
-  const clickProject = (nameProject) => {
-    const actions = {
-        github: () => {
-          window.open('https://github.com/CamiloHamon-95/running-data-analyst','_blank');
-        },
-        linkedin: () => {
-          window.open('https://linkedin.com/in/camilohamon95/', '_blank');
-        },
-        youtube: () => {
-            window.open('https://www.youtube.com/@CamiloHamon', '_blank');
-        },
-        cv: () => {
-            window.open('https://drive.google.com/file/d/1PJoLgPK1nPgGZiecsXPufKBPLolpgXze/view?usp=sharing', '_blank');
-        }
-    };
+  // const clickProject = (nameProject) => {
+  //   const actions = {
+  //       github: () => {
+  //         window.open('https://github.com/CamiloHamon-95/running-data-analyst','_blank');
+  //       },
+  //       linkedin: () => {
+  //         window.open('https://linkedin.com/in/camilohamon95/', '_blank');
+  //       },
+  //       youtube: () => {
+  //           window.open('https://www.youtube.com/@CamiloHamon', '_blank');
+  //       },
+  //       cv: () => {
+  //           window.open('https://drive.google.com/file/d/1PJoLgPK1nPgGZiecsXPufKBPLolpgXze/view?usp=sharing', '_blank');
+  //       }
+  //   };
 
-    if (actions[nameProject]) {
-        actions[nameProject]();
-    }
-  };
+  //   if (actions[nameProject]) {
+  //       actions[nameProject]();
+  //   }
+  // };
 
   return (
     <div className='ct-project-description'>

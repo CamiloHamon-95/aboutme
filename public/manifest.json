@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Personal WebPage",
+  "short_name": "Pwebpage",
+  "description": "My personal Web Page Camilo Hamon",
   "icons": [
     {
       "src": "favicon.ico",
